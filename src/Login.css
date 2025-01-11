@@ -1,0 +1,40 @@
+.login-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 300px;
+  }
+  
+  .login-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .login-button {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #777777;
+  }
+  

@@ -1,0 +1,86 @@
+/* Stylizacja kontenera formularza */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #302B27;
+    border: 1px solid #57524E;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tytuł formularza */
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Stylizacja grupy formularza */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Stylizacja etykiet */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Stylizacja inputów */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6b6560;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .form-group input:read-only {
+    cursor: pointer;
+  }
+  
+  .form-group input:focus {
+    border-color: #ffffff;
+    outline: none;
+  }
+  
+  /* Stylizacja przycisku */
+  .form-button {
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-button-second {
+    width: 15%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #6b6560;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .form-button-second:hover {
+    background-color: #514d49;
+  }
+
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
